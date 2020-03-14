@@ -15,3 +15,7 @@ Button("Follow")     @theme=primary
 }
 ```
 
+![example](https://raw.githubusercontent.com/hamburger-js/hamburger-lang-vscode/master/example.png)
+
+
+
