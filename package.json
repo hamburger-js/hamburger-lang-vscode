@@ -1,0 +1,44 @@
+{
+  "name": "hamburger-lang",
+  "displayName": "hamburger-lang",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hamburger",
+        "aliases": [
+          "hamburger-lang",
+          "hamburger.js"
+        ],
+        "extensions": [
+          "hbg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hamburger",
+        "scopeName": "source.hamburger",
+        "path": "./syntaxes/hamburger.tmLanguage.json"
+      },
+      {
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.jsx",
+          "source.tsx"
+        ],
+        "scopeName": "source.js.hamburger",
+        "path": "./syntaxes/hamburger-js.json"
+      }
+    ]
+  }
+}
