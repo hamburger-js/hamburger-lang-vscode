@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string></string>
+	<key>contactName</key>
+	<string>Yiyang Xu</string>
+	<key>description</key>
+	<string>Highlight for hamburger-lang, a DSL for framework hamburger.js.</string>
+	<key>name</key>
+	<string>Hamburger</string>
+	<key>uuid</key>
+	<string>2A73D432-B294-42D2-A53B-227B8CEB2BAB</string>
+</dict>
+</plist>
